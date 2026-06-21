@@ -18,7 +18,7 @@ humans (tightened too far, defeating the point of auto-labeling).
 
 from collections import deque
 
-from severity_router import RouterThresholds
+from app.core.severity_router import RouterThresholds
 
 
 class AdaptiveThresholdController:

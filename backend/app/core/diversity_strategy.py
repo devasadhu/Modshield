@@ -12,7 +12,7 @@ combines both.
 
 import numpy as np
 
-from query_strategies import QueryStrategy
+from app.core.query_strategies import QueryStrategy
 
 
 class CoreSetStrategy(QueryStrategy):

@@ -24,7 +24,7 @@ gradients on DistilBERT if the proxy underperforms in the eval sweep.
 
 import numpy as np
 
-from query_strategies import QueryStrategy
+from app.core.query_strategies import QueryStrategy
 
 
 class BadgeStrategy(QueryStrategy):

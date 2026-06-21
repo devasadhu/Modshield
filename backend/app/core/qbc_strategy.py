@@ -16,8 +16,8 @@ LogReg first, revisit committee size before running on DistilBERT.
 
 import numpy as np
 
-from query_strategies import QueryStrategy
-from uncertainty_decomposition import qbc_epistemic_estimate
+from app.core.query_strategies import QueryStrategy
+from app.core.uncertainty_decomposition import qbc_epistemic_estimate
 
 
 class QueryByCommitteeStrategy(QueryStrategy):
